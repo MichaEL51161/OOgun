@@ -4,28 +4,33 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
     }
 body{
     /* background-color: rgb(26, 5, 5); */
-    background-color: rgb(110, 94, 13);
+    background-color: white;
 }
 .front{
-    background-color: rgb(54, 51, 51);
+    background-image: url(/wedding/DSC_9009.jpg);
     border-radius: 30px;
+    height: 570px;
+    width: 1350px;
     
 }
 .front img{
     margin-left: 30px;
     margin-top: 20px;
     padding-top: 20px;
-    width: 120px;
-    height: 150px;
+    width: 10px;
+    height: 600px;
 }
 
 .options{
     display: flex;
     align-items: center;
+    font-size: 13px;
     padding-bottom: 10px;
     padding-top: -10px;
     transition: all;
@@ -33,6 +38,22 @@ body{
 .option:hover{
     background-color: gold;
 }
+
+.optio{
+display: block;
+color: black;
+
+}
+.optio nav ul{
+    text-align: left;
+    margin-left: 15px;
+    list-style: none;
+}
+.optio nav ul li a{
+    color: black;
+   ;
+}
+
 nav{
     flex: 1;
     text-align: right;
@@ -43,28 +64,40 @@ nav{
     
 }
 .front nav ul li{
+    margin-top: 20px;
     display: inline-block;
     margin-right: 20px;
+    
     
 }
 
 
 nav ul li a{
     color: white;
-    border-style: solid;
+    /* border-style: solid;
     border-radius: 20px;
-   border-color: rgb(209, 204, 178);
+   border-color: rgb(209, 204, 178); */
    
 }
 
-.picture{
-padding-left: 15px;
+.picture img{
+padding-left: 60px;
+width: 1320px;
 }
 
 
+/* abou */
+.abou{
+    color: black;
+    /* text-align: center; */
+    margin-left: 200px;
+    margin-right: 150px;
+    justify-content: flex-end;
+}
 
 /* About page  */
 .about h3{
+    font-size: 12px;
     color: rgb(155, 111, 111);
     align-items: center;
     justify-content: space-between;
