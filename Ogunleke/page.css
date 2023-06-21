@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    }
+body{
+    /* background-color: rgb(26, 5, 5); */
+    background-color: rgb(110, 94, 13);
+}
+.front{
+    background-color: rgb(54, 51, 51);
+    border-radius: 30px;
+    
+}
+.front img{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 120px;
+    height: 150px;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: -10px;
+    transition: all;
+}
+.option:hover{
+    background-color: gold;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.front nav ul{
+    display: inline-block;
+    list-style: none;
+    
+}
+.front nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+
+nav ul li a{
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+   border-color: rgb(209, 204, 178);
+   
+}
+
+.picture{
+padding-left: 15px;
+}
+
+
+
+/* About page  */
+.about h3{
+    color: rgb(155, 111, 111);
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(54, 33, 33);
+    padding-bottom: 20px;
+    padding-top: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+/* Portfolio page */
+.one{
+    background-color: rgb(26, 20, 20);
+    color: rgb(129, 118, 118);
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.port{
+    padding-left: 40px;
+}
+h5.eve{
+    color: white;
+    /* background-color: black; */
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Review page  */
+.rev{
+    background-color: black;
+    color: rgb(240, 232, 188);
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
