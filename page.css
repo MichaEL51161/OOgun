@@ -5,8 +5,8 @@
 }
 body{
     /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 13px;
+   font-family:'Lucida Sans Unicode', sans-serif;
+    font-size: 9px;
     }
 body{
     /* background-color: rgb(26, 5, 5); */
@@ -16,9 +16,17 @@ body{
     background-image: url(/wedding/DSC_9009.jpg);
     /* border-radius: 30px; */
     height: 570px;
-    width: 450px;
-    margin-left: 20px;
+    width: 500px;
+    margin-left: 1px;
+    position: relative;
+    transition: all;
+    transition: 3s;
 }
+.front:hover{
+    background-image: url(/wedding/DSC_1919.jpg);
+    width: 500px;
+}
+
 .front img{
     margin-left: 30px;
     margin-top: 20px;
@@ -81,7 +89,7 @@ nav ul li a{
 }
 
 .picture img{
-padding-left: 20px;
+padding-left: 1px;
 width: 500px;
 }
 
@@ -143,3 +151,9 @@ h5.eve{
     text-align: center;
 }
 
+/* table */
+.table.tr.td.a{
+;
+    border: 5px;
+    border-style: solid;
+}
