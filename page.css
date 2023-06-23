@@ -12,6 +12,10 @@ body{
     }
 
     /* Welcome page top */
+    .logo{
+        width: 100%;
+        background-color: black;
+    }
 .front{
     background-image: url(/wedding/DSC_9009.jpg);
     height: 570px;
@@ -48,6 +52,7 @@ body{
     height: 600px;
 }
 
+
 /* Links, and the hover on first page */
 nav{
     flex: 1;
@@ -81,9 +86,8 @@ nav ul li a:hover{
 /* Pictures on welcome page */
 .picture img{
 padding-left: 1px;
-width: 1400px;
-min-width: 450px;
-/* max-width: 1400px; */
+width: 90%;
+padding-left: 160px;
 }
 
 /* About page  */
@@ -128,7 +132,12 @@ min-width: 450px;
     padding-right: 10px;
     text-align: justify;
 }
-
+.port img{
+    padding-left: 150px;
+    padding-right: 2px;
+    width: 90%;
+    
+}
 h5.eve{
     color: white;
     margin-top: 20px;
@@ -158,18 +167,55 @@ tr td a:hover{
 
 @media screen and (max-width: 400px) {
     body{
-        max-width: 100%;
+        max-width: 90%;
      }
-    .front{
+    .front img{
         background-image: url(DSC_850011.jpg);
         height: 90%;
-        width: 90%;
+        width: 900%;
     }
+
+        .logo{
+            width: 50%;
+            background-image: url(/wedding/_MG_5275.jpg);
+        }
+    
+    .port img{
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+    }
+
+    /* welcome page pictures */
     .picture img{
-        padding-left: 1px;
+        padding-left: 2px;
+        padding-right: 2px;
         width: 100%;
         height: 100%;
         }
+        /* portfolio pictures */
+        /* .port img{
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 120%;
+            height: 100%;
+            } */
+            .front{
+                padding-left: 1px;
+                width: 100%;
+                height: 100%;
+                }
+                .front nav ul li{
+                    margin-top: 5px;
+                    display: grid;
+                    margin-left: 200px;
+                    justify-content: right;
+                }
+                .front nav ul{
+                    display: grid;
+                    list-style: none;
+                    text-decoration: none;
+                }
            
 }
 @media screen and (max-width: 800px) {
@@ -178,16 +224,48 @@ tr td a:hover{
     }
     .front img{
         background-image: url(DSC_850011.jpg);
-        height: 90%;
+        height: 900%;
         width: 90%;
         
     }
+    /* portfolio pictures */
+    .port img{
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+    }
+    .logo{
+            background-image: url(DSC_850011.jpg);
+            height: 90%;
+            width: 90%;
+    }
+    /* welcome page pictures */
     .picture img{
         padding-left: 5px;
         width: 100%;
         height: 100%;
-        /* min-width: 450px; */
-        /* max-width: 1400px; */
+        
         }
+        .port img{
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 100%;
+            height: 100%;
+            }
+            .front{
+                padding-left: 1px;
+                width: 100%;
+                height: 100%;
+                }
+                .front nav ul li{
+                    margin-top: 5px;
+                    display: inline-block;
+                    margin-left: 200px;
+                }
+                .front nav ul{
+                    display: grid;
+                    list-style: none;
+                    text-decoration: none;
+                }
            
 }
