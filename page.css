@@ -19,10 +19,13 @@ body{
     transition: all;
     transition: 3s;
 }
-.front:hover{
+.abou h3{
+    font-size: 25px;
+}
+/* .front:hover{
     background-image: url(DSC_850011.jpg);
     width: 500px;
-}
+} */
 .front.img:hover{
     margin-left: 20px;
     width: 10px;
@@ -112,6 +115,7 @@ width: 500px;
 
 /* Words on the portfolio page */
 .port h5{
+    font-size: 20px;
     padding-left: 20px;
     padding-right: 10px;
     text-align: justify;
