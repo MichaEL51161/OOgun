@@ -225,6 +225,9 @@ tr td a:hover{
         height: 90%;
         width: 90%;
     }
+    .abou .fpic img{
+        height: 100%;
+    }
     .fpic img{
         width: 100%;
         height: 90%;
@@ -305,6 +308,9 @@ tr td a:hover{
         /* background-image: url(DSC_850011.jpg); */
         /* height: 90%; */
         /* width: 90%; */
+    }
+    .abou .fpic img{
+        height: 100%;
     }
     .fpic img{
         width: 100%;
