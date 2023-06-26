@@ -230,6 +230,7 @@ tr td a:hover{
 
         .logo{
             width: 50%;
+            height: 50%;
             /* background-image: url(/wedding/_MG_5275.jpg); */
         }
     
@@ -299,8 +300,8 @@ tr td a:hover{
         }
     .front img{
         /* background-image: url(DSC_850011.jpg); */
-        height: 90%;
-        width: 90%;
+        /* height: 90%; */
+        /* width: 90%; */
     }
     .fpic img{
         width: 100%;
