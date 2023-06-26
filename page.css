@@ -198,7 +198,7 @@ tr td a:hover{
     body{
         max-width: 90%;
         font-size: 10px;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      }
      .options{
         width: 111%;
@@ -286,7 +286,7 @@ tr td a:hover{
     body{
        max-width: 100%;
        font-size: 10px;
-       font-family: 'Dancing Script', cursive;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .options{
         width: 111%;
@@ -305,7 +305,7 @@ tr td a:hover{
         .options nav ul li{
             text-align: right;
             justify-content: 2px;
-            padding-left: 7%;
+            padding-left: 5%;
         }
     .front img{
         /* background-image: url(DSC_850011.jpg); */
