@@ -17,6 +17,9 @@ body{
         /* background-color: black; */
         color: black;
     }
+.fpic img{
+        width: 100%;
+    }
     .picun.img{
         width: 100%;
         height: 90px;
@@ -30,16 +33,16 @@ body{
         width: 100%;
         height: 50px;
     }
-.front{
+/* .front{
     /* background-image: url(/wedding/DSC_3196.jpg); */
-    height: 570px;
+    /* height: 570px;
     max-width: 1400px;
     min-width: 500px;
     margin-left: 1px;
     position: relative;
     transition: all;
-    transition: 3s;
-}
+    transition: 3s; */
+} */
 .abou h3{
     padding-top: 2px;
     font-size: 25px;
@@ -82,7 +85,7 @@ nav{
     text-decoration: none;
 }
 .front nav ul li{
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
     margin-right: 20px;
 }
@@ -112,7 +115,7 @@ padding-left: 160px;
     width: 98%;
     height:90%;
     padding-right: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     padding-bottom: 500%;
     }
     
@@ -133,7 +136,7 @@ padding-left: 160px;
 }
 
 /* Words on the about page */
-.abou h4{
+.abou h3{
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
@@ -195,7 +198,26 @@ tr td a:hover{
     body{
         max-width: 90%;
         font-size: 10px;
+        font-family: 'Dancing Script', cursive;
      }
+     .options{
+        width: 100%;
+     }
+     .options nav{
+        color: black;
+        background-color: black;
+        color: black;
+        text-align: right;
+        width: 100%;
+        }
+
+        .options nav ul{
+            text-align: right;
+        }
+        .options nav ul li{
+            text-align: right;
+            justify-content: right;
+        }
     .front img{
         /* background-image: url(DSC_850011.jpg); */
         height: 90%;
@@ -204,7 +226,7 @@ tr td a:hover{
 
         .logo{
             width: 50%;
-            background-image: url(/wedding/_MG_5275.jpg);
+            /* background-image: url(/wedding/_MG_5275.jpg); */
         }
     
     .port img{
@@ -250,13 +272,30 @@ tr td a:hover{
 @media screen and (max-width: 800px) {
     body{
        max-width: 100%;
-       foo
+       font-size: 10px;
+       font-family: 'Dancing Script', cursive;
     }
+    .options{
+        width: 100%;
+    }
+    .options nav{
+        color: black;
+        background-color: black;
+        color: black;
+        text-align: right;
+        width: 100%;
+    }
+    .options nav ul{
+            text-align: right;
+        }
+        .options nav ul li{
+            text-align: right;
+            justify-content: right;
+        }
     .front img{
         /* background-image: url(DSC_850011.jpg); */
         height: 90%;
         width: 90%;
-        
     }
     .notch img{
 
@@ -269,7 +308,7 @@ tr td a:hover{
         width: 100%;
     }
     .logo{
-            background-image: url(DSC_850011.jpg);
+            /* background-image: url(DSC_850011.jpg); */
             height: 90%;
             width: 90%;
     }
